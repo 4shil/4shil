@@ -1,16 +1,8 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0a1628,30:0d2748,60:1e3a5f,100:2563a8&height=240&section=header&text=ASHIL&fontFamily=Orbitron&fontSize=72&fontColor=c6def6&fontAlignY=42&desc=FULL-STACK%20%26%20MOBILE%20DEVELOPER&descSize=14&descAlignY=62&descColor=7ebada&animation=twinkling&stroke=5081be&strokeWidth=2"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:c6def6,30:7ebada,60:5081be,100:2563a8&height=240&section=header&text=ASHIL&fontFamily=Orbitron&fontSize=72&fontColor=0a1628&fontAlignY=42&desc=FULL-STACK%20%26%20MOBILE%20DEVELOPER&descSize=14&descAlignY=62&descColor=1e3a5f&animation=twinkling&stroke=1e3a5f&strokeWidth=2"/>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1628,30:0d2748,60:1e3a5f,100:2563a8&height=240&section=header&text=ASHIL&fontFamily=Orbitron&fontSize=72&fontColor=c6def6&fontAlignY=42&desc=FULL-STACK%20%26%20MOBILE%20DEVELOPER&descSize=14&descAlignY=62&descColor=7ebada&animation=twinkling&stroke=5081be&strokeWidth=2" width="100%"/>
-</picture>
-
 <div align="center">
 
 [![typing](https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=13&pause=1200&color=5081BE&center=true&vCenter=true&width=640&lines=Building+things+that+feel+good+to+use.;Design+first.+Engineer+it+to+match.;Kerala%2C+India+%F0%9F%8C%B4;Currently+shipping+Atlas+%E2%86%92+App+Store.;Computer+vision.+AR.+AI.+Mobile.+Web.)](https://github.com/4shil)
 
 </div>
-
-
 
 ---
 
@@ -41,11 +33,3 @@
 ![](https://img.shields.io/badge/Contributions_since_Jan_2-1059_commits-2563a8?style=for-the-badge&logo=git&logoColor=c6def6)
 
 </div>
-
----
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:2563a8,40:1e3a5f,70:0d2748,100:0a1628&height=150&section=footer&animation=twinkling&fontFamily=Orbitron&fontSize=14&fontColor=7ebada&text=DESIGNED%20%26%20ENGINEERED%20BY%20ASHIL&fontAlignY=65"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:5081be,40:7ebada,70:c6def6,100:e0f2fe&height=150&section=footer&animation=twinkling&fontFamily=Orbitron&fontSize=14&fontColor=1e3a5f&text=DESIGNED%20%26%20ENGINEERED%20BY%20ASHIL&fontAlignY=65"/>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563a8,40:1e3a5f,70:0d2748,100:0a1628&height=150&section=footer&animation=twinkling&fontFamily=Orbitron&fontSize=14&fontColor=7ebada&text=DESIGNED%20%26%20ENGINEERED%20BY%20ASHIL&fontAlignY=65" width="100%"/>
-</picture>
