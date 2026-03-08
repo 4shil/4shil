@@ -20,6 +20,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           YESTERDAY=$(date -u -d "yesterday" +%Y-%m-%d)
+          GRAPH_FROM=$(date -u -d "$YESTERDAY -2 months" +%Y-%m-%d)
 
           RESPONSE=$(curl -s -H "Authorization: bearer $GH_TOKEN" \
             -H "Content-Type: application/json" \
@@ -32,14 +33,17 @@ jobs:
           echo "total=$TOTAL" >> $GITHUB_OUTPUT
           echo "active=$ACTIVE" >> $GITHUB_OUTPUT
           echo "yesterday=$YESTERDAY" >> $GITHUB_OUTPUT
+          echo "graph_from=$GRAPH_FROM" >> $GITHUB_OUTPUT
 
       - name: Update README badges
         run: |
           ACTIVE="${{ steps.stats.outputs.active }}"
           TOTAL="${{ steps.stats.outputs.total }}"
           YESTERDAY="${{ steps.stats.outputs.yesterday }}"
+          GRAPH_FROM="${{ steps.stats.outputs.graph_from }}"
           sed -i "s|Active_Days_since_Jan_2-[0-9]*_days|Active_Days_since_Jan_2-${ACTIVE}_days|g" README.md
           sed -i "s|Contributions_since_Jan_2-[0-9]*_commits|Contributions_since_Jan_2-${TOTAL}_commits|g" README.md
+          sed -E -i "s|(github-readme-activity-graph\.vercel\.app/graph[^\" ]*username=4shil[^\" ]*)&from=[0-9]{4}-[0-9]{2}-[0-9]{2}|\1\&from=${GRAPH_FROM}|g" README.md
           sed -E -i "s|(github-readme-activity-graph\.vercel\.app/graph[^\" ]*username=4shil[^\" ]*)&to=[0-9]{4}-[0-9]{2}-[0-9]{2}|\1\&to=${YESTERDAY}|g" README.md
 
       - name: Commit if changed
