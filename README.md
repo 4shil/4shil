@@ -1,8 +1,4 @@
-<div align="center">
 
-[![typing](https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=13&pause=1200&color=5081BE&center=true&vCenter=true&width=640&lines=Building+things+that+feel+good+to+use.;Design+first.+Engineer+it+to+match.;Kerala%2C+India+%F0%9F%8C%B4;Currently+shipping+Atlas+%E2%86%92+App+Store.;Computer+vision.+AR.+AI.+Mobile.+Web.)](https://github.com/4shil)
-
-</div>
 
 ---
 
