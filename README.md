@@ -1,7 +1,4 @@
 
-
----
-
 <div align="center">
 <img src="https://img.shields.io/badge/%E2%97%88%20CODING%20DNA%20%E2%97%88-1e3a5f?style=for-the-badge&labelColor=0a1628&color=2563a8"/>
 </div>
