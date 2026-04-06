@@ -8,8 +8,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=4shil&bg_color=0d1117&color=7ebada&line=5081be&point=c6def6&area=true&area_color=2563a8&hide_border=true&radius=6&to=2026-04-04"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=4shil&bg_color=e5f5fa&color=1e3a5f&line=5081be&point=2563a8&area=true&area_color=c6def6&hide_border=true&radius=6&to=2026-04-04" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=4shil&bg_color=0d1117&color=7ebada&line=5081be&point=c6def6&area=true&area_color=2563a8&hide_border=true&radius=6&to=2026-04-05"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=4shil&bg_color=e5f5fa&color=1e3a5f&line=5081be&point=2563a8&area=true&area_color=c6def6&hide_border=true&radius=6&to=2026-04-05" width="100%"/>
 </picture>
 
 <br/>
@@ -21,8 +21,8 @@
 
 <br/><br/>
 
-![](https://img.shields.io/badge/Active_Days_since_Jan_2-91_days-1e3a5f?style=for-the-badge&logo=github&logoColor=7ebada)
+![](https://img.shields.io/badge/Active_Days_since_Jan_2-92_days-1e3a5f?style=for-the-badge&logo=github&logoColor=7ebada)
 &nbsp;
-![](https://img.shields.io/badge/Contributions_since_Jan_2-2005_commits-2563a8?style=for-the-badge&logo=git&logoColor=c6def6)
+![](https://img.shields.io/badge/Contributions_since_Jan_2-2062_commits-2563a8?style=for-the-badge&logo=git&logoColor=c6def6)
 
 </div>
